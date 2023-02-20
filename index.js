@@ -83,8 +83,6 @@ const menu = [
 
 const sectionMain = document.querySelector('.section-main')
 const filterBtn = document.querySelectorAll('.filter-btn')
-console.log(filterBtn)
-
 
 
 window.addEventListener("DOMContentLoaded", () =>{
@@ -103,7 +101,19 @@ window.addEventListener("DOMContentLoaded", () =>{
             } else{
                 renderMenu(categoryMenu)
             }
-            console.log(categoryMenu)
+
+            // if(categoryBtn === categoryMenu.category){
+            // }
+            if(categoryBtn === 'veg'){
+                document.getElementById('icon-main').innerHTML = '🥗'
+            } else if(categoryBtn === 'nonveg'){
+                document.getElementById('icon-main').innerHTML = '🍗'
+            } else if(categoryBtn === 'shakes'){
+                document.getElementById('icon-main').innerHTML = '🥤'
+            } else if(categoryBtn === 'all'){
+                document.getElementById('icon-main').innerHTML = '🫕'
+            }
+            
         })
     })
 })
