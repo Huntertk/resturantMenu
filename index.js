@@ -4,7 +4,7 @@ const menu = [
         name: "pancakes",
         category: "veg",
         price: 250,
-        img: "/item-1.jpeg",
+        img: "images/item-1.jpeg",
         desc: "pancake dipped with honey extra added with berries."
     },
     {
@@ -12,7 +12,7 @@ const menu = [
         name: "burger",
         category: "nonveg",
         price: 399,
-        img: "/item-2.jpeg",
+        img: "images/item-2.jpeg",
         desc: "delicious burger with chicken fillings and french fries."
     },
     {
@@ -20,7 +20,7 @@ const menu = [
         name: "creamy milkshake",
         category: "shakes",
         price: 190,
-        img: "/item-3.jpeg",
+        img: "images/item-3.jpeg",
         desc: "creamy milkshake with donout and berries."
     },
     {
@@ -28,7 +28,7 @@ const menu = [
         name: "chicken biryani",
         category: "nonveg",
         price: 450,
-        img: "/item-4.jpg",
+        img: "images/item-4.jpg",
         desc: "pot chicken biryani with fresh chicken marinated in a mixture of original biryani masala."
     },
     {
@@ -36,7 +36,7 @@ const menu = [
         name: "chicken tandoori",
         category: "nonveg",
         price: 800,
-        img: "/item-5.jpg",
+        img: "images/item-5.jpg",
         desc: "chicken tandoori marinated fresh chicken with indian spices."
     },
     {
@@ -44,7 +44,7 @@ const menu = [
         name: "Masala Dosa",
         category: "veg",
         price: 249,
-        img: "/item-6.jpg",
+        img: "images/item-6.jpg",
         desc: "south indian special food masala dosa with fillings of potato and indian spices."
     },
     {
@@ -52,7 +52,7 @@ const menu = [
         name: "Oreo Shake",
         category: "shakes",
         price: 149,
-        img: "/item-6.jpeg",
+        img: "images/item-6.jpeg",
         desc: "oreo shaks with milk and chocolate syrup and oreo biscuit."
     },
     {
@@ -60,7 +60,7 @@ const menu = [
         name: "Indian Thali",
         category: "veg",
         price: 1149,
-        img: "/item-7.jpg",
+        img: "images/item-7.jpg",
         desc: "indian thali with 5 different types of vegitables item with parotha."
     },
     {
@@ -68,7 +68,7 @@ const menu = [
         name: "chole bhature",
         category: "veg",
         price: 149,
-        img: "/item-8.jpg",
+        img: "images/item-8.jpg",
         desc: "fresh and soft bhature with spicy chole."
     },
     {
@@ -76,7 +76,7 @@ const menu = [
         name: "chicken curry",
         category: "nonveg",
         price: 499,
-        img: "/item-9.jpg",
+        img: "images/item-9.jpg",
         desc: "chicken curry with spicy masala."
     },
 ]
