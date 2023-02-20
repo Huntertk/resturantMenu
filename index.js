@@ -113,7 +113,7 @@ const renderMenu  = (menu) => {
     const getMenu = menu.map((item) => {
         return `
         <article class="menu-item">
-        <img src="${item.img}" alt="img-food" class="photo">
+        <img src="${item.img}" alt="img-food" class="photo icon">
         <div class="item-info">
             <header>
                 <h4>${item.name}</h4>
